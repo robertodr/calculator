@@ -26,7 +26,7 @@ The source code and unit tests are organized as follows:
 
 - Build a shared library.
 - Build and link the main program.
-- Build the unit tests and link against [Google Test](https://github.com/google/googletest).
+- Build the unit tests with [Catch2](https://github.com/catchorg/Catch2).
 - Define a version number inside CMake and print it to the output of the executable.
 - Print the Git hash to the output of the executable.
 - Create an installer so the program can be installed properly (GNU standards).
